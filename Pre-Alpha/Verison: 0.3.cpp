@@ -14,6 +14,7 @@ string user;
 string input;
 string friends;
 string inputrobot;
+string anytopic;
 char countedfriend;
 
 int main()
@@ -103,11 +104,13 @@ int main()
 				else if (node == 4)
 				{
 					cout << "Do you think I am a robot?" << endl;
+					cin >> inputrobot;
 				}
 
 				else if (node == 5)
 				{
 					cout << "Well we can talk anything you want to talk about." << endl;
+					cin >> anytopic;
 				}
 				else if (node == 6)
 				{
