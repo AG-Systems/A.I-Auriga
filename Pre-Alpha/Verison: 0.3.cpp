@@ -15,6 +15,7 @@ string input;
 string friends;
 string inputrobot;
 string anytopic;
+string songinput;
 char countedfriend;
 
 int main()
@@ -143,6 +144,7 @@ int main()
 				else if (node == 13)
 				{
 					cout << "Dun dun dun dun Dep dun dun dun dun Dep dep dun dun dun Oooooooooo Dun dun dun dun Oooooooooo Dun dun dun dun Dep dep dep dep Oooooo dun dep" << endl;
+					cin >> songinput;
 				}
 				else if (node == 14)
 				{
