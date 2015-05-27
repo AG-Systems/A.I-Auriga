@@ -13,6 +13,7 @@ string master;
 string user;
 string input;
 string friends;
+string inputrobot;
 char countedfriend;
 
 int main()
